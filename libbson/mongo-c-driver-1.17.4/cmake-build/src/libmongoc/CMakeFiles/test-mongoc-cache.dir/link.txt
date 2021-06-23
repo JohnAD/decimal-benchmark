@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG  -rdynamic CMakeFiles/test-mongoc-cache.dir/tests/test-mongoc-cache.c.o  -o test-mongoc-cache  libmongoc-static-1.0.a -lssl -lcrypto -lrt -lresolv -lz -licuuc -lresolv -lz -licuuc ../libbson/libbson-static-1.0.a -lrt -lm -pthread 

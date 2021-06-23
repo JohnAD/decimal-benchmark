@@ -1,0 +1,742 @@
+The system is: Linux - 5.4.0-7626-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6edf/fast && /usr/bin/make -f CMakeFiles/cmTC_d6edf.dir/build.make CMakeFiles/cmTC_d6edf.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6edf.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d6edf.dir/testCCompiler.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d6edf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6edf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6edf.dir/testCCompiler.c.o  -o cmTC_d6edf 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb126/fast && /usr/bin/make -f CMakeFiles/cmTC_fb126.dir/build.make CMakeFiles/cmTC_fb126.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIY8SYt.s
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o /tmp/ccIY8SYt.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_fb126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb126.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o  -o cmTC_fb126 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb126' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc96iJTV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fb126 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb126' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_fb126/fast && /usr/bin/make -f CMakeFiles/cmTC_fb126.dir/build.make CMakeFiles/cmTC_fb126.dir/build]
+  ignore line: [make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIY8SYt.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o /tmp/ccIY8SYt.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_fb126]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb126.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o  -o cmTC_fb126 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb126' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc96iJTV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fb126 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc96iJTV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fb126] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_fb126.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf08c/fast && /usr/bin/make -f CMakeFiles/cmTC_bf08c.dir/build.make CMakeFiles/cmTC_bf08c.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf08c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf08c.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf08c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf08c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bf08c.dir/CheckIncludeFile.c.o  -o cmTC_bf08c 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4e28/fast && /usr/bin/make -f CMakeFiles/cmTC_f4e28.dir/build.make CMakeFiles/cmTC_f4e28.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4e28.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f4e28.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f4e28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e28.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4e28.dir/CheckIncludeFile.c.o  -o cmTC_f4e28 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6699/fast && /usr/bin/make -f CMakeFiles/cmTC_c6699.dir/build.make CMakeFiles/cmTC_c6699.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6699.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6699.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6699.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6699.dir/CheckIncludeFile.c.o  -o cmTC_c6699 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0172e/fast && /usr/bin/make -f CMakeFiles/cmTC_0172e.dir/build.make CMakeFiles/cmTC_0172e.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0172e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0172e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_0172e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0172e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0172e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_0172e 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af83e/fast && /usr/bin/make -f CMakeFiles/cmTC_af83e.dir/build.make CMakeFiles/cmTC_af83e.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af83e.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af83e.dir/TestEndianess.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_af83e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af83e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af83e.dir/TestEndianess.c.o  -o cmTC_af83e 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c943/fast && /usr/bin/make -f CMakeFiles/cmTC_6c943.dir/build.make CMakeFiles/cmTC_6c943.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c943.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6c943.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6c943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c943.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6c943.dir/CheckSymbolExists.c.o  -o cmTC_6c943  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test BSON_HAVE_TIMESPEC succeeded with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7f4d/fast && /usr/bin/make -f CMakeFiles/cmTC_b7f4d.dir/build.make CMakeFiles/cmTC_b7f4d.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7f4d.dir/src.c.o
+/usr/bin/cc   -DBSON_HAVE_TIMESPEC   -o CMakeFiles/cmTC_b7f4d.dir/src.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b7f4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f4d.dir/link.txt --verbose=1
+/usr/bin/cc  -DBSON_HAVE_TIMESPEC    -rdynamic CMakeFiles/cmTC_b7f4d.dir/src.c.o  -o cmTC_b7f4d  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct timespec *)0)->tv_sec);
+  return 0;
+}
+
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53305/fast && /usr/bin/make -f CMakeFiles/cmTC_53305.dir/build.make CMakeFiles/cmTC_53305.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53305.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_53305.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53305.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_53305.dir/CheckSymbolExists.c.o  -o cmTC_53305  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a80cd/fast && /usr/bin/make -f CMakeFiles/cmTC_a80cd.dir/build.make CMakeFiles/cmTC_a80cd.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a80cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rand_r   -o CMakeFiles/cmTC_a80cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a80cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a80cd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=rand_r    -rdynamic CMakeFiles/cmTC_a80cd.dir/CheckFunctionExists.c.o  -o cmTC_a80cd  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5017b/fast && /usr/bin/make -f CMakeFiles/cmTC_5017b.dir/build.make CMakeFiles/cmTC_5017b.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5017b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5017b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5017b.dir/CheckIncludeFile.c.o  -o cmTC_5017b 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52672/fast && /usr/bin/make -f CMakeFiles/cmTC_52672.dir/build.make CMakeFiles/cmTC_52672.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52672.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_52672.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_52672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52672.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_52672.dir/CheckSymbolExists.c.o  -o cmTC_52672  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dcf25/fast && /usr/bin/make -f CMakeFiles/cmTC_dcf25.dir/build.make CMakeFiles/cmTC_dcf25.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcf25.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dcf25.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dcf25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf25.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dcf25.dir/CheckSymbolExists.c.o  -o cmTC_dcf25  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c4ea/fast && /usr/bin/make -f CMakeFiles/cmTC_4c4ea.dir/build.make CMakeFiles/cmTC_4c4ea.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c4ea.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c4ea.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4c4ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c4ea.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c4ea.dir/CheckIncludeFile.c.o  -o cmTC_4c4ea 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the SYS_gettid exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2abdc/fast && /usr/bin/make -f CMakeFiles/cmTC_2abdc.dir/build.make CMakeFiles/cmTC_2abdc.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2abdc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2abdc.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2abdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abdc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2abdc.dir/CheckSymbolExists.c.o  -o cmTC_2abdc  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/syscall.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SYS_gettid
+  return ((int*)(&SYS_gettid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the syscall exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3460d/fast && /usr/bin/make -f CMakeFiles/cmTC_3460d.dir/build.make CMakeFiles/cmTC_3460d.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3460d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3460d.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3460d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3460d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3460d.dir/CheckSymbolExists.c.o  -o cmTC_3460d  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef syscall
+  return ((int*)(&syscall))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_ATOMIC_32_ADD_AND_FETCH succeeded with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0a7e/fast && /usr/bin/make -f CMakeFiles/cmTC_a0a7e.dir/build.make CMakeFiles/cmTC_a0a7e.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0a7e.dir/src.c.o
+/usr/bin/cc   -DHAVE_ATOMIC_32_ADD_AND_FETCH   -o CMakeFiles/cmTC_a0a7e.dir/src.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0a7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a7e.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_ATOMIC_32_ADD_AND_FETCH    -rdynamic CMakeFiles/cmTC_a0a7e.dir/src.c.o  -o cmTC_a0a7e  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+   #include <stdint.h>
+
+   int
+   main ()
+   {
+      int32_t v = 1;
+      return __sync_add_and_fetch_4 (&v, (int32_t) 10);
+   }
+Performing C SOURCE FILE Test HAVE_ATOMIC_64_ADD_AND_FETCH succeeded with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65215/fast && /usr/bin/make -f CMakeFiles/cmTC_65215.dir/build.make CMakeFiles/cmTC_65215.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65215.dir/src.c.o
+/usr/bin/cc   -DHAVE_ATOMIC_64_ADD_AND_FETCH   -o CMakeFiles/cmTC_65215.dir/src.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65215.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_ATOMIC_64_ADD_AND_FETCH    -rdynamic CMakeFiles/cmTC_65215.dir/src.c.o  -o cmTC_65215  /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+   #include <stdint.h>
+
+   int
+   main ()
+   {
+      int64_t v = 1;
+      return __sync_add_and_fetch_8 (&v, (int64_t) 10);
+   }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6411c/fast && /usr/bin/make -f CMakeFiles/cmTC_6411c.dir/build.make CMakeFiles/cmTC_6411c.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6411c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6411c.dir/CheckIncludeFile.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6411c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6411c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6411c.dir/CheckIncludeFile.c.o  -o cmTC_6411c 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02092/fast && /usr/bin/make -f CMakeFiles/cmTC_02092.dir/build.make CMakeFiles/cmTC_02092.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02092.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_02092.dir/HAVE_UNISTD_H.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_02092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02092.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_02092.dir/HAVE_UNISTD_H.c.o  -o cmTC_02092 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78cab/fast && /usr/bin/make -f CMakeFiles/cmTC_78cab.dir/build.make CMakeFiles/cmTC_78cab.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78cab.dir/HAVE_STDARG_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_78cab.dir/HAVE_STDARG_H.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CheckIncludeFiles/HAVE_STDARG_H.c
+Linking C executable cmTC_78cab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78cab.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_78cab.dir/HAVE_STDARG_H.c.o  -o cmTC_78cab 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ASN1_STRING_get0_data exists in the /usr/lib/x86_64-linux-gnu/libcrypto.so passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3652/fast && /usr/bin/make -f CMakeFiles/cmTC_c3652.dir/build.make CMakeFiles/cmTC_c3652.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3652.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ASN1_STRING_get0_data   -o CMakeFiles/cmTC_c3652.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3652
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3652.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ASN1_STRING_get0_data    -rdynamic CMakeFiles/cmTC_c3652.dir/CheckFunctionExists.c.o  -o cmTC_c3652   -L/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/openssl/asn1.h  -Wl,-rpath,/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/openssl/asn1.h /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7ad4/fast && /usr/bin/make -f CMakeFiles/cmTC_a7ad4.dir/build.make CMakeFiles/cmTC_a7ad4.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7ad4.dir/HAVE_SOCKLEN.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7ad4.dir/HAVE_SOCKLEN.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CheckTypeSize/HAVE_SOCKLEN.c
+Linking C executable cmTC_a7ad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7ad4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a7ad4.dir/HAVE_SOCKLEN.c.o  -o cmTC_a7ad4 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the res_nsearch exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7186/fast && /usr/bin/make -f CMakeFiles/cmTC_c7186.dir/build.make CMakeFiles/cmTC_c7186.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7186.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c7186.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7186.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c7186.dir/CheckSymbolExists.c.o  -o cmTC_c7186 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <resolv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef res_nsearch
+  return ((int*)(&res_nsearch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the res_nclose exist passed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1b46/fast && /usr/bin/make -f CMakeFiles/cmTC_c1b46.dir/build.make CMakeFiles/cmTC_c1b46.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1b46.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c1b46.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c1b46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b46.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c1b46.dir/CheckSymbolExists.c.o  -o cmTC_c1b46 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <resolv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef res_nclose
+  return ((int*)(&res_nclose))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test MONGOC_HAVE_SS_FAMILY succeeded with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a8b1/fast && /usr/bin/make -f CMakeFiles/cmTC_0a8b1.dir/build.make CMakeFiles/cmTC_0a8b1.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a8b1.dir/src.c.o
+/usr/bin/cc   -DMONGOC_HAVE_SS_FAMILY   -o CMakeFiles/cmTC_0a8b1.dir/src.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0a8b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a8b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DMONGOC_HAVE_SS_FAMILY    -rdynamic CMakeFiles/cmTC_0a8b1.dir/src.c.o  -o cmTC_0a8b1 
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+

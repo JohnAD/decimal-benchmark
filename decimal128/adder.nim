@@ -16,11 +16,18 @@ var repitition = parseInt(paramStr(1))
 # act
 let t0 = epochTime()
 for x in 0 ..< repitition:
-    a.parse(newString)   # 8.4s
-    result = result + a  # 3.2s
-let elapsed = epochTime() - t0
+    a.parse(newString)
+let elapsedSer = epochTime() - t0
+
+let t1 = epochTime()
+for x in 0 ..< repitition:
+    result = result + a
+let elapsedAdd = epochTime() - t1
+
 
 # assert
+let elapsedSerStr = elapsedSer.formatFloat(format = ffDecimal, precision = 3)
+echo "time (serialization): ", elapsedSerStr, "s"
+let elapsedAddStr = elapsedAdd.formatFloat(format = ffDecimal, precision = 3)
+echo "time (addition)     : ", elapsedAddStr, "s"
 echo "answer: ", $result
-let elapsedStr = elapsed.formatFloat(format = ffDecimal, precision = 3)
-echo "time: ", elapsedStr, "s"

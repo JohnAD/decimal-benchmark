@@ -1,0 +1,154 @@
+Determining if the function reallocf exists failed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_360ae/fast && /usr/bin/make -f CMakeFiles/cmTC_360ae.dir/build.make CMakeFiles/cmTC_360ae.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_360ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=reallocf   -o CMakeFiles/cmTC_360ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_360ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_360ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=reallocf    -rdynamic CMakeFiles/cmTC_360ae.dir/CheckFunctionExists.c.o  -o cmTC_360ae  /usr/lib/x86_64-linux-gnu/librt.so 
+/usr/bin/ld: CMakeFiles/cmTC_360ae.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `reallocf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_360ae.dir/build.make:88: cmTC_360ae] Error 1
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_360ae/fast] Error 2
+
+
+
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cae83/fast && /usr/bin/make -f CMakeFiles/cmTC_cae83.dir/build.make CMakeFiles/cmTC_cae83.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cae83.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cae83.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+    8 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_cae83.dir/build.make:66: CMakeFiles/cmTC_cae83.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cae83/fast] Error 2
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a64f/fast && /usr/bin/make -f CMakeFiles/cmTC_8a64f.dir/build.make CMakeFiles/cmTC_8a64f.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a64f.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8a64f.dir/src.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a64f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a64f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8a64f.dir/src.c.o  -o cmTC_8a64f  /usr/lib/x86_64-linux-gnu/librt.so 
+/usr/bin/ld: CMakeFiles/cmTC_8a64f.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8a64f.dir/build.make:88: cmTC_8a64f] Error 1
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8a64f/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the res_ndestroy exist failed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_597f8/fast && /usr/bin/make -f CMakeFiles/cmTC_597f8.dir/build.make CMakeFiles/cmTC_597f8.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_597f8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_597f8.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘res_ndestroy’ undeclared (first use in this function)
+    8 |   return ((int*)(&res_ndestroy))[argc];
+      |                   ^~~~~~~~~~~~
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_597f8.dir/build.make:66: CMakeFiles/cmTC_597f8.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_597f8/fast] Error 2
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <resolv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef res_ndestroy
+  return ((int*)(&res_ndestroy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sched_getcpu exist failed with the following output:
+Change Dir: /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88623/fast && /usr/bin/make -f CMakeFiles/cmTC_88623.dir/build.make CMakeFiles/cmTC_88623.dir/build
+make[1]: Entering directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88623.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88623.dir/CheckSymbolExists.c.o   -c /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘sched_getcpu’ undeclared (first use in this function); did you mean ‘sched_getparam’?
+    8 |   return ((int*)(&sched_getcpu))[argc];
+      |                   ^~~~~~~~~~~~
+      |                   sched_getparam
+/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_88623.dir/build.make:66: CMakeFiles/cmTC_88623.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_88623/fast] Error 2
+
+
+File /home/johnd/Projects/decimal-benchmark/libbson/mongo-c-driver-1.17.4/cmake-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_getcpu
+  return ((int*)(&sched_getcpu))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
